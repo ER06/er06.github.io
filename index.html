@@ -13,110 +13,67 @@
 </head>
 <body>
 
-    <div class="head">
-
-        <div class="logo">
-            <a href="#">DIVERNET</a>
-        </div>
-
-        <nav class="navbar">
-            <div class="btn-home"></div>
-                <a href="#">Papelería</a>
-                <!--
-                <a href="#">Nosotros</a>
-                <a href="#">Conacto</a>-->
-                <a href="#">Cómputo</a>
-                <!--
-                <a href="#">Precio</a>
-                -->
-            </div>
-        </nav>
-
-    </div>
-
-    <header class="content header">
-       <!-- <h2 class="title">DIVERNET</h2>-->
-        <p>
-            Gran variedad de productos de papelería y cómputo.</p>
-            <p>Renta de equipos de cómputo para realizar trabajos escolares y de oficina.</p>
-            <p>Renta de Xbox.</p>
-
-        <div class="btn-home">
-            <a href="#" class="btn">Papelería</a>
-            <a href="#" class="btn">Cómputo</a>
+    <header>
+        <div class="container">
+            <p class="logo">DIVERNET</p>
+            <nav>
+                <a href="#Productos">Papelería</a>
+                <a href="#Productos">Cómputo</a>
+                
+            </nav>
         </div>
     </header>
 
-    <section class="content sau">
-
-        <h2 class="title">Productos</h2>
+    <section id="hero">
+        <h2>Gran variedad de productos de papelería y cómputo.</h2>
+        <h2>Renta de equipos de cómputo para realizar trabajos escolares y de oficina.</h2> 
+            <h2>Renta de Xbox.</h2>
+            <button 
+                href="#">Papelería
+            </button>
+            <button href="#">Cómputo
+            </button>
         
-        
-        <div class="box-container">
+       
+    </section>
 
-            <div class="box">
+    <section id="Productos">
+
+        <div class="container">
+            <div class="negocio">
                 <a href="#"> 
-                 <i class="fas fa-edit"></i>
+                    <i class="fas fa-edit"></i>
                 </a>
-                <h3>Papelería</h3>
-                <p>Libretas, plumas, etc.</p>
+                    <h3> <span class="color-rosa">Papelería </span></h3>
+                        <p>Libretas, plumas, etc.</p>
             </div>
-            <div class="box">
+            
+            <div class="negocio">
                 <a href="#"> 
                     <i class="fas fa-desktop"></i>
                 </a>
-                <h3>Computación</h3>
+                <h3><span class="color-rosa">Cómputo </span></h3>
                 <p>Usb, teclados, mouse, etc.</p>
             </div>
-
         </div>
-
     </section>
-<!--
-    <section class="content about">
+    
 
-        <h2 class="title">Nosotros</h2>
-        <p>Lorem ipsum dolor sit amet consectetur 
-            adipisicing elit. Ut soluta similique 
-            quia reprehenderit eligendi aliquam. Sit 
-            odio impedit quibusdam. Velit corporis, 
-            optio debitis quidem ex ipsam rerum dolorem autem sequi.
-        </p>
 
-        <a href="#" class="btn">Saber mas</a>
-
-    </section>-->
-<!--
-    <section class="content price">
-
-        <article class="contain">
-            <h2 class="title">Precio</h2>
-            <p>Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Ut soluta similique 
-                quia reprehenderit eligendi aliquam. Sit 
-                odio impedit quibusdam. Velit corporis, 
-                optio debitis quidem ex ipsam rerum dolorem autem sequi.
-            </p>
-
-            <a href="#" class="btn">Saber precio</a>
-
-        </article>
-
-    </section>
--->
-    <section class="content contact">
+    <section class="contact">
         <h2 class="title">Contacto</h2>
         <p>Lázaro Cárdenas S/N, San Gregorio Atlapulco, Xochimilco, C.P. 16600, CDMX</p>
         <p>55-55-55-55-55</p>
         <figure class="map">
-            <img src="img/mapa.PNG" height="250px" width="100%" alt="mapa">
+            <img src="img/mapa.PNG" height="400px" width="100%" alt="mapa">
         </figure>
     </section>
 
-    <section class="pie">
-        <p>by DIVERLED</p>
-
-    </section>
-    
+    <footer>
+        <section class="container">
+            <p>&copy; DIVERLED 2022</p>
+        </section>
+    </footer>
+        
 </body>
 </html>
