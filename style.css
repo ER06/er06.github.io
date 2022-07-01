@@ -37,10 +37,12 @@ button:hover{
     border: 2px solid #9c27b0;
     background: none
     
+    
 }
 
 .color-rosa{
     color: #9c27b0;
+       
 }
 
 .container{
@@ -117,11 +119,16 @@ header a:hover{
     background-color: #171717;
     flex-wrap: wrap;
     text-align: center;
+    
+    
+   
+    
 }
 
 #Productos .container{
     
-    padding: 10px 0px;
+    padding: 20px 0px;
+    text-decoration: none;
     
 }
 
@@ -129,7 +136,17 @@ header a:hover{
 #Productos p{
     
     display: none;
+    
+   
 }
+#Productos a{
+    
+    text-decoration: none;
+    
+   
+}
+
+
 
 #Productos .negocio{
     height: 10rem;
@@ -137,8 +154,11 @@ header a:hover{
     background: #101010;
     text-align: center;
     border-radius: 1rem;
-    box-shadow: 0 .2rem 2rem rgba(0, 0 , 0, .5);
-    margin: 5rem; 
+    box-shadow: 0 .1rem 2rem rgba(0, 0 , 0, .5);
+    margin-top: 5rem;
+   margin-bottom: 5rem;
+   
+    
 
 }
 
@@ -147,12 +167,21 @@ header a:hover{
     width: 3rem;
     line-height: 3rem;
     text-align: center;
-    border-radius: 50%;
+    border-radius: 30%;
     color: #fff;
     background: #9c27b0;
     font-size: 2rem;
     margin: 1rem ;
+    
+    
 
+}
+
+#Productos .negocio:hover{
+    border: 4px solid #9c27b0;
+    background: none
+    
+    
 }
 
 .contact {
@@ -220,14 +249,30 @@ footer .container{
         padding-right: 20px;
     }
 
-    #Productos .container{
-        display: flex;
-        justify-content: center;
+    #Productos{
+        display: block;
     
     }
+
+    
+    #Productos .container{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+
     #Productos .container p{
         display: block;
-        color: #fff;
+        color: rgb(255, 255, 255);
         margin: 20px ;
+        
+        
+        
     }
+
+  
+
+
+
+
 }
